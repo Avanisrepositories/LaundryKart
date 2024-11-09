@@ -1,5 +1,5 @@
 const mongoose = require("mongoose")
-const DB ="mongodb+srv://avainpatel06:Avani0612@cluster2.mqtpc.mongodb.net/Laundry?retryWrites=true&w=majority&appName=Cluster2/Laundry"
+const DB ="mongodb+srv://xvz:<db_password>@cluster2.mqtpc.mongodb.net/?retryWrites=true&w=majority&appName=Clusterxvz"
 mongoose.connect(DB,{
     useNewUrlParser:true,
     useUnifiedTopology:true,
