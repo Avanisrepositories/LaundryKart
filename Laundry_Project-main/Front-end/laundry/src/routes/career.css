@@ -1,0 +1,70 @@
+/* General Layout for Career Page */
+.career-page {
+    background-color: #EFEBE1;  /* Light background color for better readability */
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+}
+
+.career-page h1 {
+    text-align: center;
+    color: #2a2a2a;  /* Dark color for headings */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.career-page p {
+    color: #555;  /* Slightly lighter color for paragraph text */
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Section for Job Listings */
+.job-listings {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.job-card {
+    background-color: #EBEEE8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h2 {
+    color: #2a2a2a;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.job-card p {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.job-card .apply-button {
+    background-color: #CCC91E;  /* Green color for apply button */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.job-card .apply-button:hover {
+    background-color:#616768;  /* Darker green on hover */
+}
